@@ -1,0 +1,113 @@
+.lorem {
+    width: 40%;
+    height: 150px;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 60px;
+    text-align: justify;
+}
+
+.lorem1 {
+    width: 40%;
+    height: 150px;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-right: 70px;
+    text-align: justify;
+}
+
+.lorem2 {
+    width: 40%;
+    height: 150px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 100px;
+    margin-right: 60px;
+    text-align: justify;
+}
+
+.lorem3 {
+    width: 40%;
+    height: 150px;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-right: 70px;
+    text-align: justify;
+}
+
+.style1 {
+    width: 40%;
+    height: 150px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 100px;
+    margin-right: 60px;
+    text-align: justify;
+}
+
+.style2 {
+    width: 40%;
+    height: 150px;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-right: 70px;
+    text-align: justify;
+}
+
+#yazi1 {
+    font-family: lucida console;
+}
+
+#yazi {
+    font-family: lucida console;
+}
+
+#yazi2 {
+    font-family: lucida console;
+}
+
+#yazi3 {
+    font-family: Papyrus;
+}
+
+#yazi4 {
+    font-family: Papyrus;
+}
+
+#yazi5 {
+    font-family: Papyrus;
+}
+
+#yazi6 {
+    font-family: Papyrus;
+}
+
+#abc {
+    width: 20%;
+    height: 5px;
+    display: inline-block;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#abcd {
+    width: 20%;
+    height: 100px;
+    display: inline-block;
+    margin-top: 5px;
+    margin-left: 40px;
+    margin-right: 5px;
+}
+
+#kkk {
+    background-color: aquamarine;
+}
+
+#son {
+    color: red;
+}
