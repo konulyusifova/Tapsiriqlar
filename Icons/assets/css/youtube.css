@@ -1,0 +1,28 @@
+ul img{
+    width: 50px;
+}
+li{
+    font-family: 'PT Sans';
+    display: block;
+    margin: 15px;
+    padding: 10;
+}
+li a{
+    width: 20px;
+    border-bottom: 1px transparent;
+    transition: .10s;
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+}
+hr{
+    width: 240px;
+    float: left;
+}
+a i{ 
+    font-size: 25px;
+}
+li a:hover{
+    border-bottom: 1px solid black;
+    letter-spacing: 1px;
+}
