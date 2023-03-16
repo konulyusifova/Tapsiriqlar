@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.web{
+    width: 200px;
+    height: 300px;
+    margin: 100px auto;
+    border-radius: 25px;
+    padding: 25px 0;
+    background-color: #d2d9e2e0;
+}
+p{ 
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    color: rgb(0, 162, 255);
+}
+.box h1{
+    color: blue;
+    font-size: 60px;
+}
+.box p{
+    font-family: sans-serif;
+    color: black;
+    font-size:20px;
+}
+.box p h1 {
+    padding: 200px 230px;
+}
+.fb{
+    display: inline-block;
+    width: 40%;
+}
