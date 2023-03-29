@@ -18,7 +18,7 @@ body{
     height: 3px;
     background-color: white;
     position: absolute;
-    top: 335px;
+    top: 390px;
     left: 230px;
 }
 .sekil::before{
@@ -27,7 +27,7 @@ body{
     height: 3px;
     background-color: white;
     position: absolute;
-    top: 335px;
+    top: 390px;
     left: 368px;
 }
 .sekil{
