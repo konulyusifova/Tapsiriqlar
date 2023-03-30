@@ -1,0 +1,51 @@
+
+body{
+    background-color: rgba(246, 232, 248, 0.993);
+}
+div{
+    border: 1px solid rgb(144, 59, 194);
+    height: 30px;
+    width: 60px;
+    background-color: rgb(164, 100, 224);
+    transition: 10s;
+    animation-name: spin;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+}
+@keyframes spin{
+    0%{
+        transform: rotate(0deg);
+        top: 50px;
+        position: relative;
+        left: 0px;
+    }
+    25%{
+        transform: rotate(20deg);
+        left: 0px;
+        top: 50px;
+        position: relative;
+        background-color: rgb(230, 102, 230);
+    }
+    50%{
+        transform: rotate(0deg);
+        left: 800px;
+        top: 50px;
+        position: relative;
+        background-color: rgba(233, 149, 222, 0.829);
+    }
+
+    75%{
+        transform: rotate(45deg);
+        left: 800px;
+        top: 50px;
+        position: relative;
+        background-color: rgba(204, 122, 193, 0.829);
+    }
+    100%{
+        transform: rotate(-180deg);
+        left: 0px;
+        top: 50px;
+        position: relative;
+        background-color: rgb(224, 140, 224);
+    }
+}
