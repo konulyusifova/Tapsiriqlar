@@ -1,0 +1,196 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.menu {
+    background-color: rgb(178, 178, 179);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    padding: 10px;
+}
+.btn {
+    cursor: pointer;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+ul {
+    display: flex;
+}
+.menu p{
+    font-size: 25px;
+    margin-left: 120px;
+}
+.col-1{
+    width: calc(100%/12);
+}
+.col-2{
+    width: calc(100%/6);
+}
+.col-3{
+    width: calc(100%/4);
+}
+.col-4{
+    width: calc(100%/3);
+}
+.col-5{
+    width: calc(100%/2.4);
+}
+.col-6{
+    width: calc(100%/2);
+}
+.col-7{
+    width: calc(100%/1.7142857143);
+}
+.col-8{
+    width: calc(100%/1.5);
+}
+.col-9{
+    width: calc(100%/1.3333333333);
+}
+.col-10{
+    width: calc(100%/1.2);
+}
+.col-11{
+    width: calc(100%/1.0909090909);
+}
+.col-12{
+    width: calc(100%/1);
+}
+li {
+    display: block;
+    float: left;
+    font-size: 20px;
+    padding: 0 8px;
+    line-height: 35px;
+}
+.btn1{
+    padding: 2px 10px;
+    font-size: 15px;
+}
+
+.yazi {
+    display: flex;
+    justify-content: space-around;
+    margin: 60px 100px;
+}
+
+#img1 {
+    margin-right: 30px;
+}
+
+.bttn {
+    margin-top: 160px;
+    line-height: 30px;
+}
+
+#shop {
+    font-size: 30px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.son {
+    background-color: rgba(228, 228, 233, 0.626);
+    height: 400px;
+}
+
+#rel {
+    font-size: 30px;
+    margin-left: 180px;
+
+}
+
+.img2 {
+    width: 80%;
+    margin: 0 10%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.item1 {
+    width: 20%;
+    height: 160px;
+    background-color: rgba(222, 217, 217, 0.826);
+    border: 1px solid rgb(129, 127, 127);
+    margin-top: 20px;
+    padding: 60px 55px;
+    font-size: xx-large;
+}
+
+.img3 {
+    width: 80%;
+    margin: 0 10%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.item2 {
+    width: 20%;
+    height: 160px;
+    background-color: white;
+    border: 1px solid rgb(181, 177, 177);
+    margin-top: 0;
+    text-align: center;
+    padding: 30px 60px;
+    font-size: large;
+    line-height: 40px;
+}
+
+li a i {
+    font-size: 30px;
+}
+
+.menu2 {
+    background-color: rgb(18, 18, 19);
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+.btn-menu{
+    background-color: rgb(228, 230, 232);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    display: none;
+}
+.btn-menu{
+    font-size: 30px;
+}
+@media(max-width:674px){
+    .menu ul li{
+        display: none;
+    }
+    .btn-menu{
+        display: block;
+    }
+    .menu p{
+        width: 100%;
+        font-size: 40px;
+    }
+}
+@media(max-width:1085px){
+    .menu p{
+        margin-left: 0;
+    }
+}
+@media(max-width:1015px){
+    .yazi{
+        margin: 0;
+    }
+}
+
+@media(max-width:806px){
+    .yazi{
+        display: block;
+    }
+}
