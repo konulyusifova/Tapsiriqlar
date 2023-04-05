@@ -1,0 +1,33 @@
+ @import url('partials/variables.scss');
+ 
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+ }
+ .bg-image{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkpEp_xDb991q-qSeC_YHBiCRY2lvXU4NNsA&usqp=CAU);
+    background-size: 100%;
+    height: 500px;
+ }
+ .menu{
+    display: flex;
+    justify-content: space-around;
+ }
+ h2{
+    color: rgb(121, 121, 121);
+}
+.btn-1{
+    padding: 2px;
+}
+ul {
+   display: flex;
+}
+.btn-2{
+   padding: 5px 15px;
+}
+.medium{
+   display: flex;
+   padding: 100px 200px;
+}
