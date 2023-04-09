@@ -1,0 +1,611 @@
+@import 'partials/variables.scss';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+#bgimage {
+    background-image: url(https://manila.newworldhotels.com/wp-content/uploads/sites/17/2014/05/Cafe-1228-Seafood-Buffet.jpg);
+    background-size: 100%;
+    height: 720px;
+
+    .menu {
+        width: 70%;
+        height: 70px;
+        margin-left: 15%;
+        border: 0;
+        color: $black;
+        background-color: $white;
+        display: flex;
+        justify-content: space-between;
+        position: fixed;
+        top: 30px;
+        z-index: 9;
+
+        img {
+            height: 70px;
+        }
+    }
+
+    .d-flex {
+        display: flex;
+
+        li {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            padding: 20px 20px;
+            cursor: pointer;
+        }
+
+        &:hover li {
+            color: $bgcolor;
+        }
+    }
+
+    .written2 {
+        text-align: center;
+        padding-top: 250px;
+        padding-left: 550px;
+        padding-right: 550px;
+
+        h2 {
+            background-color: $black;
+            font-size: 32px;
+            padding: 10px;
+            color: $white;
+        }
+    }
+
+    .written1 {
+        text-align: center;
+        padding-left: 520px;
+        padding-right: 520px;
+
+        h1 {
+            background-color: $bgcolor;
+            font-size: 38px;
+            padding: 10px;
+            color: $white;
+        }
+    }
+
+    .bttn {
+        text-align: center;
+        padding-left: 560px;
+        padding-right: 560px;
+
+        .btn {
+            margin-top: 30px;
+            padding: 15px 25px;
+            font-size: 18px;
+            border: 0;
+            border-radius: 30px;
+            background-color: $white;
+            color: $black;
+            cursor: pointer;
+
+        }
+
+        &:hover .btn {
+            background-color: $black;
+            color: $white;
+        }
+    }
+
+    .column {
+        position: absolute;
+        top: 210px;
+        right: 10px;
+
+        .icon {
+            color: $black;
+            background-color: $white;
+            border: 0;
+            font-size: 25px;
+            padding: 10px;
+            border-radius: 50%;
+        }
+
+        &:hover .icon {
+            color: $white;
+            background-color: $black;
+        }
+    }
+}
+
+
+#items {
+    display: flex;
+    position: relative;
+    width: 100%;
+    top: 330px;
+    margin-left: 15%;
+    z-index: 1;
+
+    .item {
+        position: relative;
+        top: 80px;
+        font-size: 50px;
+        left: 25px;
+
+        h3 {
+            color: $white;
+            background-color: $bgcolor;
+        }
+    }
+}
+
+.lorem {
+    margin-top: 700px;
+    font-size: 26px;
+    width: 100%;
+
+    .bulb {
+        position: relative;
+        left: 150px;
+        display: flex;
+        text-align: center;
+
+        .las {
+            font-size: 130px;
+        }
+
+        &:hover .las {
+            color: $bgcolor;
+        }
+    }
+
+    .case {
+        position: relative;
+        left: 800px;
+        display: flex;
+        text-align: center;
+
+        .las {
+            font-size: 130px;
+        }
+
+        &:hover .las {
+            color: $bgcolor;
+        }
+    }
+
+    .heart {
+        position: relative;
+        margin-top: 50px;
+        left: 200px;
+        display: flex;
+        text-align: center;
+
+        .lab {
+            font-size: 110px;
+        }
+
+        &:hover .lab {
+            color: $bgcolor;
+        }
+    }
+}
+
+.orange {
+    display: flex;
+    justify-content: space-around;
+    padding: 100px 120px;
+    background-color: $bgcolor;
+    width: 100%;
+    height: 400px;
+    color: $white;
+    text-align: center;
+    margin-top: 100px;
+
+    .ipsum {
+        font-size: 22px;
+        padding: 60px 10px;
+    }
+
+    .cafe h1 {
+        font-size: 120px;
+    }
+
+    .cafe span {
+        font-size: 22px;
+    }
+
+    .server h1 {
+        font-size: 150px;
+    }
+
+    .server span {
+        font-size: 23px;
+    }
+}
+
+.center {
+    text-align: center;
+    margin-top: 100px;
+
+    span {
+        font-size: 25px;
+    }
+
+    h3 {
+        color: $bgcolor;
+        padding: 15px;
+        font-size: 60px;
+    }
+}
+
+#gallery {
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: 100px;
+    left: 20%;
+    right: 20%;
+
+    #photos {
+        width: 25%;
+
+        .image {
+            width: 100%;
+            height: 400px;
+            background-image: url(https://megaone.acrothemes.com/cafe/images/work-1.jpg);
+        }
+
+        .bgplus {
+            text-align: center;
+            background-color: $black;
+            color: $white;
+            opacity: 0;
+            transition: .5s;
+            height: 400px;
+
+            h2 {
+                font-size: 100px;
+                padding-top: 100px;
+            }
+
+            p {
+                font-size: 20px;
+            }
+
+            span {
+                font-size: 15px;
+            }
+        }
+
+        &:hover .bgplus {
+            opacity: .65;
+        }
+    }
+    #photos1{
+        width: 35%;
+        .image1 {
+            width: 100%;
+            height: 400px;
+            background-image: url(https://megaone.acrothemes.com/cafe/images/work-5.jpg);
+        }
+
+        .bgplus1 {
+            text-align: center;
+            background-color: $black;
+            color: $white;
+            opacity: 0;
+            transition: .5s;
+            height: 400px;
+
+            h2 {
+                font-size: 100px;
+                padding-top: 100px;
+            }
+
+            p {
+                font-size: 20px;
+            }
+
+            span {
+                font-size: 15px;
+            }
+        }
+
+        &:hover .bgplus1 {
+            opacity: .65;
+        }
+    }
+    #photos2{
+        width: 30%;
+
+        .image2 {
+            width: 100%;
+            height: 400px;
+            background-image: url(https://megaone.acrothemes.com/cafe/images/work-1.jpg);
+        }
+
+        .bgplus2 {
+            text-align: center;
+            background-color: $black;
+            color: $white;
+            opacity: 0;
+            transition: .5s;
+            height: 400px;
+
+            h2 {
+                font-size: 100px;
+                padding-top: 100px;
+            }
+
+            p {
+                font-size: 20px;
+            }
+
+            span {
+                font-size: 15px;
+            }
+        }
+
+        &:hover .bgplus2 {
+            opacity: .65;
+        }
+    }
+    #photos3 {
+        width: 45%;
+        background-position: center;
+
+        .image3 {
+            width: 100%;
+            height: 400px;
+            background-image: url(https://megaone.acrothemes.com/cafe/images/work-4.jpg);
+        }
+
+        .bgplus3 {
+            text-align: center;
+            background-color: $black;
+            color: $white;
+            opacity: 0;
+            transition: .5s;
+            height: 400px;
+
+            h2 {
+                font-size: 100px;
+                padding-top: 100px;
+            }
+
+            p {
+                font-size: 20px;
+            }
+
+            span {
+                font-size: 15px;
+            }
+        }
+
+        &:hover .bgplus3 {
+            opacity: .65;
+        }
+    }
+    #photos4 {
+        width: 45%;
+        background-position: center;
+
+        .image4 {
+            width: 100%;
+            height: 400px;
+            background-image: url(https://megaone.acrothemes.com/cafe/images/work-4.jpg);
+        }
+
+        .bgplus4 {
+            text-align: center;
+            background-color: $black;
+            color: $white;
+            opacity: 0;
+            transition: .5s;
+            height: 400px;
+
+            h2 {
+                font-size: 100px;
+                padding-top: 100px;
+            }
+
+            p {
+                font-size: 20px;
+            }
+
+            span {
+                font-size: 15px;
+            }
+        }
+
+        &:hover .bgplus4 {
+            opacity: .65;
+        }
+    }
+}
+
+#reviews {
+    width: 100%;
+    height: 600px;
+    position: relative;
+    top: 200px;
+    background-color: $gray;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    H3 {
+        padding: 50px;
+        font-size: 50px;
+        font-weight: 500;
+    }
+
+    img {
+        border-radius: 50%;
+    }
+
+    h4 {
+        font-size: 25px;
+        font-weight: 400;
+    }
+
+    span {
+        font-size: 17px;
+        color: $bgcolor;
+    }
+
+    p {
+        padding: 20px;
+        font-size: 20px;
+    }
+
+    .la-quote-left {
+        font-size: 100px;
+        position: absolute;
+        top: 270px;
+        left: 270px;
+        color: $bgcolor;
+    }
+
+    .la-quote-right {
+        position: absolute;
+        font-size: 100px;
+        top: 400px;
+        right: 240px;
+        color: $bgcolor;
+    }
+
+    .la-square {
+        border: 0;
+        background-color: $black;
+        color: $black;
+        font-size: 15px;
+        border-radius: 50%;
+    }
+
+    .circle {
+        background-color: $bgcolor;
+        color: $bgcolor;
+    }
+}
+
+#menyu {
+    text-align: center;
+    position: relative;
+    top: 350px;
+    span {
+        font-size: 25px;
+    }
+
+    h3 {
+        color: $bgcolor;
+        padding: 15px;
+        font-size: 60px;
+    }
+}
+.food{
+    width: 80%;
+    position: relative;
+    top: 500px;
+    left: 10%;
+    .flex{
+        display: flex;
+        text-align: center;
+        .foods{
+            width: 294px;
+            height: 420px;
+            background-color: $color;
+            border: 0;
+            transition: .5s;
+            h3{
+                font-size: 22px;
+                padding: 15px;
+            }
+            i{
+                opacity: 0;
+                font-size: 25px;
+                padding: 10px;
+                color: $white;
+            }
+            &:hover .yazi{
+                background-color: $bgcolor;
+            }
+            &:hover i{
+                opacity: 1;
+            }
+        }
+    }
+}
+#booknow{
+    text-align: center;
+    position: relative;
+    top: 640px;
+    span {
+        font-size: 25px;
+    }
+
+    h2 {
+        color: $bgcolor;
+        padding: 15px;
+        font-size: 60px;
+    }
+}
+.book{
+    width: 60%;
+    height: 150px;
+    background-color: $color;
+    position: relative;
+    top: 300px;
+    left: 20%;
+    .input{
+        display: flex;
+        padding: 60px 20px;
+        input{
+            padding: 10px;
+            margin-left: 30px;
+        }
+        button{
+            background-color: $bgcolor;
+            padding: 10px 50px;
+            border: 0;
+            border-radius: 40px;
+            font-size: 20px;
+            color: $white;
+            cursor: pointer;
+        }
+        &:hover button{
+            background-color: $black;
+        }
+    }
+}
+.end{
+    position: relative;
+    display: flex;
+    top: 800px;
+    width: 100%;
+    background-color: $black;
+    color: $white;
+    height: 400px;
+    line-height: 20px;
+    div{
+        margin-top: 100px;
+        width: 20%;
+        margin-left: 10%;
+        p{
+            padding: 15px;
+        }
+        img{
+            padding: 20px;
+        }
+        &:hover p{
+            color: $bgcolor;
+        }
+    }
+}
