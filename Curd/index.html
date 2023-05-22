@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet"
+        href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <div class="head d-flex">
+        <p><i class="las la-leaf"></i><b>envato</b><span>market</span></p>
+        <button>Buy now</button>
+    </div>
+    <div class="container d-flex mt-3">
+        <div>
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIwAAAAXCAYAAADZYae+AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTQ1IDc5LjE2MzQ5OSwgMjAxOC8wOC8xMy0xNjo0MDoyMiAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo5NUM2M0FDMDkyMTVFNTExQTUzM0FGRkVCN0ZCQjNFRCIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpFRkEzMDEyMzE1RkUxMUVCOEJEN0VCNjZCMjhFMTFCNiIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpFRkEzMDEyMjE1RkUxMUVCOEJEN0VCNjZCMjhFMTFCNiIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChXaW5kb3dzKSI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjdCQzRBNDYxQzEyM0U4MTFBOTEyOUM3QzREMDZBNzRFIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjk1QzYzQUMwOTIxNUU1MTFBNTMzQUZGRUI3RkJCM0VEIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+jVn/9gAABIhJREFUeNrsW4txozAQlZlrgJTgdGBcAi6BlIBLwCXYJUAJpgQowSrBlBBKuBN3q2SzWX1h4jhnzWjsGLGsVk9vPyKrzWYjLK1QPYOeo98l9F71Vnx9+03+Xt2J7G9pEynl388sy6b1TtEaD+raCNdy9b1PDDJK1a+qn1WvCFgEAKiE61f4/mj339aq1wCaaW2PAJZpfbvpOwWMHljDzSEPOSN0PtodNsUgJ/yJiKDWYxIClg7cUEwr4P4HaH4QhhS7dBB6fAJMDa6Gtkb1HfhE3beqn5ixGUbjo919e4Fw5EABUzLMMgU9z6rvMcLQtQNclwzTPGKa+21P8LlVrmmY/pb/ouInDJiKAcTEKoND+ADjKGgqSySPuwgcZ7pP/14Z4qsrGtMZ9AuVjROEM3mGThhCN44OLl+RrIuF/UNaSuRqW9A4ZrR9JsAIa4aKRk9FRhhPF6q48U4pUQaH55dD9H+ZGW9lIL9mbKjnr8HqWuwCycqJXjojvcxMLGpyL7duzpYwKXPjwSwc0zSMQW/Vco9YKoMFiAXjxTOTXMPY0sFQPrKKSKAXzAbeB5DCB8BQRftII/ZfAJjeoJ/+fSTpIN5NPeM6c7RhfGWbAvuBGUt3eM4sJCdLWmStOVficEX0GVPCElVwXW02myUrmy5Zvs+aK4de3yKwnMluO5CMzyX7SjbZCDIahjmOhA0GSBT0QlKW0slETxa8YmIoX73pfCXYA8ct3gv86z+J/EcSn82JiyhYuKBfu3ZJalNrkNEwsnQCMTK6HxjW9mFw6opGcEXRLfmhAGkZVtDZ0RxXmTPUbtuekqlX5RZZtpjiAIDS3QV8kyuScwHTM6hcwpj9DQFzMuins6PY8y8uQQgFb25giKUPcWlW1BrsEgyYwWGUWGMONwSMJHGLMNRnQjOO1OLqbBkkJyNGVmhmtDggOYYphf/BIzZC+Y0YBoPmBZhgNKTWx8hYSASk1ZyM0QHGpd1yHbGuLGBaZheEFog6JhtoI4wplpgUY7gp0HsC8MxxwTH3ckcuQvBHKks2WmdJxQJvFCQooKI7r/MIEHVqmHnEEJzBcw/XFuMaK9RzAp7djJ1N9XcF0RmTDrcGBjg6dDnCmujuKjpyldxQRjUCpmUmkIn3c4zC8GCu7N1bgkHJuL90yQkBQx1Rp8HfnFiLVsH1KyGlIQXnmLexyLow+ulsR4Nfd+kJ8BOjVxVr3BV6RTP1ZBVX3LCzBHC5+FylHJDhTOwSUrjTh2x0t0nDM0ILd9wc6DzWBte6IyzlIytjmOdT8c2hN+cF3nQJKdytyDu9KezKmJSzF36Hll2E2wmt9FaeTDXp+kx09qlGlyL8vZ+9gXlDZY0AliHAJhnDdm9yQgCTMMrsYeGHgAkcHMyC24tHsWtWcQkYw1UjGQJ05lzT1tNGmg0ai6ydp6weAB5asuAKiFFB8Grmfw1IiH1Cja7T8AJRpUTFJRrbnAIZButfiI+vDPQozuL0Dj1bK0F+htzQIN4PEJsAu5QoRkmRLP3fGbZShY/eZyYebRTDeB8X/BFgAGKekrDc/Q/hAAAAAElFTkSuQmCC"
+                alt="logo">
+        </div>
+        <nav>
+            <ul class="d-flex">
+                <li>Home<i class="las la-angle-down"></i>
+                    <ul class="submenu">
+                        <ul>
+                            <li>Home style 1</li>
+                            <li>Home style 2</li>
+                            <li>Home style 3</li>
+                            <li>Home style 4</li>
+                            <li>Home style 5</li>
+                            <li>Home style 6</li>
+                            <li>Home style 7</li>
+                        </ul>
+                    </ul>
+                </li>
+                <li>Shop<i class="las la-angle-down"></i>
+                    <ul class="submenu">
+                        <ul>
+                            <li>Shop Pages
+                                <ul>
+                                    <li>Lorem ipsum</li>
+                                    <li>Lorem ipsum</li>
+                                    <li>Lorem ipsum</li>
+                                    <li>Lorem ipsum</li>
+                                    <li>Lorem ipsum</li>
+                                    <li>Lorem ipsum</li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>Products pages
+                                <ul>
+                                    <li>Lorem ipsum</li>
+                                    <li>Lorem ipsum</li>
+                                    <li>Lorem ipsum</li>
+                                    <li>Lorem ipsum</li>
+                                    <li>Lorem ipsum</li>
+                                    <li>Lorem ipsum</li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>Other shop pages
+                                <ul>
+                                    <li>Lorem ipsum</li>
+                                    <li>Lorem ipsum</li>
+                                    <li>Lorem ipsum</li>
+                                    <li>Lorem ipsum</li>
+                                    <li>Lorem ipsum</li>
+                                    <li>Lorem ipsum</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </ul>
+                </li>
+                <li>Blog<i class="las la-angle-down"></i>
+                    <ul class="submenu">
+                        <ul>
+                            <li>Lorem ipsum</li>
+                            <li>Lorem ipsum</li>
+                            <li>Lorem ipsum</li>
+                            <li>Lorem ipsum</li>
+                            <li>Lorem ipsum</li>
+                            <li>Lorem ipsum</li>
+                        </ul>
+                    </ul>
+                </li>
+                <li>Pages<i class="las la-angle-down"></i>
+                    <ul class="submenu">
+                        <ul>
+                            <li>Lorem ipsum</li>
+                            <li>Lorem ipsum</li>
+                            <li>Lorem ipsum</li>
+                            <li>Lorem ipsum</li>
+                            <li>Lorem ipsum</li>
+                            <li>Lorem ipsum</li>
+                        </ul>
+                    </ul>
+                </li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+        <div class="search">
+            <span><i class="las la-search"></i>Search</span>
+            <span><i class="las la-shopping-bag"></i>Cart (0)</span>
+            <span><i class="las la-bars"></i></span>
+        </div>
+    </div>
+    <div>
+        <div>
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://outstock-vue.vercel.app/_nuxt/slider-1.9ccbaa17.jpg" class="d-block w-100">
+                        <div class="about">
+                            <h2><b>Handmade<br>Hand carved Coffee</b></h2>
+                            <p>As rich and unique as the coffee beans it is intended for, this little scoop will <br>
+                                make your morning ritual a special occasion every day.</p>
+                            <button>DISCOVER NOW</button>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://outstock-vue.vercel.app/_nuxt/slider-2.ddb414d2.jpg" class="d-block w-100">
+                        <div class="about">
+                            <h2><b>Think Different & <br> Do it otherwise</b></h2>
+                            <p>Claritas est etiam processus dynamicus, qui sequitur mutationem <br> consuetudium
+                                lectorum.</p>
+                            <button>DISCOVER NOW</button>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://outstock-vue.vercel.app/_nuxt/slider-3.2c2310fe.jpg" class="d-block w-100">
+                        <div class="about">
+                            <h2><b>High Beam<br>by Tom Chung</b></h2>
+                            <p>High Beam is an adjustable desk or shelf light that offers a wide variety of <br>
+                                lighting possibilities</p>
+                            <button>DISCOVER NOW</button>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <div class="imgs">
+            <div>
+                <div class="text">
+                    <h4>Lighting & Chair</h4>
+                    <p>Discover now</p>
+                </div>
+                <img src="https://outstock-vue.vercel.app/_nuxt/banner-sm-1.39ffa9b9.jpg" height="200px">
+            </div>
+            <div>
+                <div class="text">
+                    <h4>Decoration & Accessories</h4>
+                    <p>Discover now</p>
+                </div>
+                <img src="https://outstock-vue.vercel.app/_nuxt/banner-sm-2.771cae9f.jpg" height="200px">
+            </div>
+            <div>
+                <div class="text">
+                    <h4>Clothing & Oil</h4>
+                    <p>Discover now</p>
+                </div>
+                <img src="https://outstock-vue.vercel.app/_nuxt/banner-sm-3.3ac76e33.jpg" height="200px">
+            </div>
+        </div>
+        <div class="main">
+            <h1>Trending Products</h1>
+            <p>Mirum est notare quam littera gothica quam nunc putamus parum claram!</p>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-3">
+                    <img src="https://outstock-vue.vercel.app/_nuxt/product_3.ae6cc204.png" alt="" height="260px">
+                    <p></p>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
+        <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
